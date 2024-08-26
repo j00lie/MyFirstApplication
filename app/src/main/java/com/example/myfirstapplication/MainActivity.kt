@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             val num1 = editTextNum1.text.toString().toInt()
             val num2 = editTextNum2.text.toString().toInt()
             val result = num1 + num2
-
+            // Display Result
             resultView.text = "Result: $result"
         }
 
